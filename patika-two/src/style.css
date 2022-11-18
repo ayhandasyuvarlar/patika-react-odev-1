@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+  font-weight: bold;
+  color: aliceblue;
+}
+body {
+  background-color: #333343;
+}
+a {
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+  font-weight: bold;
+  color: aliceblue;
+  display : flex ; 
+  flex-direction :column;
+}
+.contacts-container {
+  width: 1400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input {
+  width: 350px;
+  background-color: transparent;
+  border: 0px;
+  height: 50px;
+  font-size: large;
+  font-weight: bold;
+  color: aliceblue;
+}
+input:focus {
+  outline: none;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+form button {
+  margin: 20px 0px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: x-large;
+  font-weight: bold;
+  color: #333343;
+  background-color: #F1C40F;
+  border: none;
+  cursor: pointer;
+}
+
+.list-container{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.list-container input{
+    width: 100%;
+}
+.list-container .contacts-list{
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    overflow-y: auto;
+    gap: 10px;
+}
+.list-container .contacts-list div{
+    padding: 0px 10px;
+    border: 1px solid #F1C40F;
+    border-radius: 10px;
+}
